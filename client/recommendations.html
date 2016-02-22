@@ -4,7 +4,7 @@
   <input placeholder="Filter" type="text" ng-model="searchRecs">
   </form>
   <section id="results" class="recommendations" style="text-align: center" ng-repeat="rec in recs | filter:searchRecs">
-    <div ng-show="rec.type === 'Books'">
+    <div class="recs" ng-show="rec.type === 'Books'">
     <p>Tag: {{rec.tag}}</p>
     <br></br>
     <p>Title: {{rec.title}}</p>
@@ -14,7 +14,7 @@
     <p>Pages: {{rec.bookData.pageCount}}</p>
     </div>
 
-    <div ng-show="rec.type === 'Movies'">
+    <div class="recs" ng-show="rec.type === 'Movies'">
     <p>Tag: {{rec.tag}}</p>
     <br></br>
     <p>Title: {{rec.title}}</p>
@@ -24,7 +24,7 @@
     <p>Year: {{rec.movieData.Year}}</p>
     </div>
 
-    <div ng-show="rec.type === 'Games'">
+    <div class="recs" ng-show="rec.type === 'Games'">
     <p>Tag: {{rec.tag}}</p>
     <br></br>
     <p>Title: {{rec.title}}</p>

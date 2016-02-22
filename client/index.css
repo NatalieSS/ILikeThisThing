@@ -54,7 +54,7 @@ h4 {
     border-radius:3px;
     -moz-border-radius:3px;
     -webkit-border-radius:3px;
-    background: #00b300;
+    background: #2eb82e;
     padding: 5px; 
     width: 300px;
     height: 40px;
@@ -81,8 +81,21 @@ h4 {
   width: 300px;
 }
 
+.madlibs {
+  float: left;
+  left: -50%;
+  color: white;
+  font-size: 120%;
 
 
+.individual {
+  color: black;
+  font-size: 120%;
+  border-radius: 3px;
+  background: white;
+  padding: 15px; 
+  width: 300px;
+}
 
 
 
