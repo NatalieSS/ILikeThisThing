@@ -25,7 +25,7 @@ body {
 
 h4 {
   text-align: center;
-  font: font-family: "Arial Black","Arial Bold",Gadget,sans-serif;
+  font-family: "Work Sans", Arial, sans-serif;
   color: black;
   font-size: 120%;
   border-radius: 5px;
@@ -42,9 +42,9 @@ h4 {
 .question {
   position: absolute;
   width: 100%;
-  font: font-family: "Arial Black","Arial Bold",Gadget,sans-serif;
-  color: black;
-  font-size: 120%;
+  font-family: "Work Sans", Arial, sans-serif;
+  color: white;
+  font-size: 110%;
   border-width:1px;
     border-style:solid;
     border-bottom-color:#aaa;
@@ -54,7 +54,7 @@ h4 {
     border-radius:3px;
     -moz-border-radius:3px;
     -webkit-border-radius:3px;
-    background: #ffcc00;
+    background: #00b300;
     padding: 5px; 
     width: 300px;
     height: 40px;
@@ -70,9 +70,9 @@ h4 {
 .resultsList {
   float: left;
   position: relative;
-  left: -50%;
+  left: -57%;
   list-style: none;
-  font: font-family: "Arial Black","Arial Bold",Gadget,sans-serif;
+  font-family: "Work Sans", Arial, sans-serif;
   color: black;
   font-size: 120%;
   border-radius: 3px;
